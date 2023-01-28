@@ -3,13 +3,20 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-.menu {
-  display: inline;
+div {
+  padding: 25px;
+  background-color: #FFDBAA;
 }
-#title {
-  padding: 5%;
+.menu {
+  display: inline-block;
+}
+h2 {
+
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 #navMenu{
   position: absolute;
-  right: 5%;
+  right: 60px;
+  padding: 30px 16px;
 }
