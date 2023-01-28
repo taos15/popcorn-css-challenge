@@ -3,9 +3,19 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-div {
-  padding: 25px;
+body {
+  background-color: #D4A76A;
+}
+.header {
+  padding-bottom : 25px;
   background-color: #FFDBAA;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-right: 0px;
+  margin-left: -30;
+}
+#title {
+  padding: 15px;
 }
 .menu {
   display: inline-block;
@@ -13,8 +23,8 @@ div {
 h1 {
   margin: 15px;
   color: #553100;
-  padding-bottom: 15px;
-  padding-left: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
 }
 #navMenu{
   position: absolute;
@@ -27,7 +37,7 @@ h1 {
 a {
   background-color: #805215;
   color: white;
-  padding: 10px 16px;
-  margin: 15px ;
+  padding: 13px 20px;
+  margin: 15px 20px ;
   display: inline-block;
 }
