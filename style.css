@@ -44,8 +44,9 @@ a {
 .ads {
   display: inline-block;
   width: 22%;
-  border: solid;
-  margin: 5%;
+  box-shadow: 2px 2px 10px 0px #888888;
+  margin: 3%;
+  margin-left: 7%;
   background-color: white;
 
 }
@@ -63,4 +64,18 @@ a {
 }
 a {
   text-decoration: none;
+}
+#aboutus {
+
+  width: 90%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#aboutus a {
+  width: 93%;
+  text-align: center;
+}
+#aboutus p {
+  text-align: left;
+  padding-left: 5%;
 }
