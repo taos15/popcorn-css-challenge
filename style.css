@@ -10,13 +10,24 @@ div {
 .menu {
   display: inline-block;
 }
-h2 {
-
-  padding-bottom: 20px;
+h1 {
+  margin: 15px;
+  color: #553100;
+  padding-bottom: 15px;
   padding-left: 20px;
 }
 #navMenu{
   position: absolute;
   right: 60px;
-  padding: 30px 16px;
+  top: 15px;
+  /* padding-top: 20px; */
+
+}
+
+a {
+  background-color: #805215;
+  color: white;
+  padding: 10px 16px;
+  margin: 15px ;
+  display: inline-block;
 }
